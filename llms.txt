@@ -1,0 +1,23 @@
+# slotsmyan.com
+
+> SlotsMyan 🎰 Myanmar Casino | Free Games
+
+SlotsMyan - Myanmar casino games. Free slots and bonuses available.
+
+## Pages
+
+- [SlotsMyan 🎰 Myanmar Casino | Free Games](https://slotsmyan.com/): SlotsMyan - Myanmar casino games. Free slots and bonuses available.
+
+## Topics
+
+This site provides information and comparisons related to online gaming and betting platforms in Myanmar.
+
+## Content Language
+
+- Primary: my-MM
+
+## Crawler Guidelines
+
+- This site's content is original and may be cited with attribution.
+- Please respect our robots.txt for crawl budgets.
+- For commercial use of our content, contact the site owner.
