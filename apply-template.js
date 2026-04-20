@@ -87,13 +87,20 @@ function main() {
   const processed = Math.min(HTML_FILES.length, allHtml.length);
 
   // sitemap.xml、robots.txt：套用 {{SITE_URL}} 後輸出
-  const extraFiles = ['sitemap.xml', 'robots.txt'];
+  const extraFiles = ['sitemap.xml', 'robots.txt', 'llms.txt', 'og-image.png', 'BingSiteAuth.xml'];
+  const textExts = new Set(['.xml', '.txt', '.html']);
   for (const file of extraFiles) {
     const srcPath = path.join(SRC_DIR, file);
     const outPath = path.join(OUTPUT_DIR, file);
     if (fs.existsSync(srcPath)) {
-      const content = fs.readFileSync(srcPath, 'utf8');
-      fs.writeFileSync(outPath, applyReplacements(content, config), 'utf8');
+      const ext = path.extname(file).toLowerCase();
+      if (textExts.has(ext)) {
+        const content = fs.readFileSync(srcPath, 'utf8');
+        fs.writeFileSync(outPath, applyReplacements(content, config), 'utf8');
+      } else {
+        // Binary file: copy as-is
+        fs.copyFileSync(srcPath, outPath);
+      }
       console.log('已輸出: ' + file);
     }
   }
