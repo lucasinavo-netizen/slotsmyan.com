@@ -28,4 +28,5 @@ User-agent: MSNBot
 Disallow: 
 User-agent: *
 Disallow: /cdn-cgi/
+Disallow: /go/
 Sitemap: {{SITE_URL}}/sitemap.xml

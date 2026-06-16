@@ -2,5 +2,12 @@
   "buildCommand": "npm run build",
   "outputDirectory": "output",
   "framework": null,
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "redirects": [
+    {
+      "source": "/go/sm",
+      "destination": "https://www.rr95k.com/?ch=0cf28df51e",
+      "permanent": false
+    }
+  ]
 }
