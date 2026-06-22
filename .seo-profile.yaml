@@ -1,0 +1,61 @@
+# SEO Profile — single source of truth for this site.
+# Every employee agent MUST read this before acting on the site.
+# Update `current_state` + `last_full_audit` after every audit.
+
+url: slotsmyan.com
+url_canonical: https://slotsmyan.com/
+brand_name: Slots Myan
+
+# Infrastructure
+framework: static-html
+hosting: vercel
+github_repo: lucasinavo-netizen/slotsmyan.com
+
+
+# Analytics
+gsc:
+  property: https://slotsmyan.com/
+  verified: true
+  permission: siteFullUser
+  service_account_owner: true
+
+ga4:
+  property_id: "532870793"
+  measurement_id: G-BBMJYCJP0R
+  service_account_viewer: true
+
+# Brand / Positioning
+target_market: Myanmar (MM)
+target_language: my-MM
+target_keywords:
+  primary: ["slot myanmar", "myanmar slot app"]
+  secondary: []
+position: "Slots Myan — Myanmar gambling network"
+
+# Affiliate
+affiliate_cloak_path: /go/sm
+affiliate_destination: https://www.mm38aa.com/m/home?affiliateCode=lu0001
+
+# Current State (auto-updated by sk-tech / sk-content)
+current_state:
+  body_words: 1500
+  h2_count: 12
+  h3_count: 10
+  sitemap_urls: 2
+  indexed_pages_90d: 2
+  clicks_90d: 94
+  impressions_90d: 4337
+  last_full_audit: 2026-06-17
+  last_content_update: 2026-06-18
+  last_visual_screenshot: /tmp/all-sites-visual/slotsmyan.com.png
+
+# Known Issues
+known_issues: []
+
+# Confirmed Facts
+confirmed_facts:
+  pbn_inline_strategy: nofollow  # All cross-network <a href> require rel=nofollow noopener noreferrer
+
+# Pending Decisions
+pending_decisions: []
+
