@@ -1,31 +1,45 @@
 User-agent: GPTBot
 Disallow:
+Disallow: /go/
 User-agent: ChatGPT-User
 Disallow:
+Disallow: /go/
 User-agent: CCBot
 Disallow:
+Disallow: /go/
 User-agent: PerplexityBot
 Disallow:
+Disallow: /go/
 User-agent: ClaudeBot
 Disallow:
+Disallow: /go/
 User-agent: Claude-Web
 Disallow:
+Disallow: /go/
 User-agent: Google-Extended
 Disallow:
+Disallow: /go/
 User-agent: Applebot-Extended
 Disallow:
+Disallow: /go/
 User-agent: Amazonbot
 Disallow:
+Disallow: /go/
 User-agent: FacebookExternalHit
 Disallow:
+Disallow: /go/
 User-agent: Googlebot
 Disallow: 
+Disallow: /go/
 User-agent: googlebot-image
 Disallow: 
+Disallow: /go/
 User-agent: googlebot-mobile
 Disallow: 
+Disallow: /go/
 User-agent: MSNBot
 Disallow: 
+Disallow: /go/
 User-agent: *
 Disallow: /cdn-cgi/
 Disallow: /go/

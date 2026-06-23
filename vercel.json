@@ -1,13 +1,12 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "output",
-  "framework": null,
-  "installCommand": "npm install",
-  "redirects": [
+  "rewrites": [
     {
       "source": "/go/sm",
-      "destination": "https://www.mm38aa.com/m/home?affiliateCode=lu0001",
-      "permanent": false
+      "destination": "/api/go?to=rr95"
+    },
+    {
+      "source": "/go/sm2",
+      "destination": "/api/go?to=mm38"
     }
   ],
   "headers": [
@@ -32,5 +31,9 @@
         }
       ]
     }
-  ]
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "output",
+  "framework": null,
+  "installCommand": "npm install"
 }
