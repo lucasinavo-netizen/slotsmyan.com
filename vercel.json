@@ -8,6 +8,11 @@
       "source": "/go/sm",
       "destination": "https://www.mm38aa.com/m/home?affiliateCode=lu0001",
       "permanent": false
+    },
+    {
+      "source": "/go/sm2",
+      "destination": "https://www.rr95k.com/?ch=0cf28df51e",
+      "permanent": false
     }
   ],
   "headers": [
