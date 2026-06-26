@@ -20,8 +20,9 @@ gsc:
   service_account_owner: true
 
 ga4:
-  property_id: "532870793"
-  measurement_id: G-BBMJYCJP0R
+  property_id: "525739795"
+  measurement_id: G-F73CYP7R3Y
+  google_tag_id: GT-KFT56N27
   service_account_viewer: true
 
 # Brand / Positioning
@@ -34,7 +35,7 @@ position: "Slots Myan — Myanmar gambling network"
 
 # Affiliate
 affiliate_cloak_path: /go/sm
-affiliate_destination: https://www.mm38aa.com/m/home?affiliateCode=lu0001
+affiliate_destination: https://www.rr95k.com/?ch=0cf28df51e
 
 # Current State (auto-updated by sk-tech / sk-content)
 current_state:
@@ -58,4 +59,3 @@ confirmed_facts:
 
 # Pending Decisions
 pending_decisions: []
-
