@@ -8,4 +8,12 @@
 <loc>{{SITE_URL}}/a80.html</loc>
 <lastmod>2025-02-24T00:00:00+00:00</lastmod>
 </url>
+  <url>
+    <loc>{{SITE_URL}}/a80-slot-rtp.html</loc>
+    <lastmod>2026-06-26</lastmod>
+  </url>
+  <url>
+    <loc>{{SITE_URL}}/a80-slot-login.html</loc>
+    <lastmod>2026-06-26</lastmod>
+  </url>
 </urlset>
