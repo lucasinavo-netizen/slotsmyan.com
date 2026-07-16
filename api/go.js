@@ -1,5 +1,5 @@
 // Affiliate redirect. All partner CTA routes currently use the primary RR95K line.
-const TARGET = 'https://www.myan99.me/m/home?affiliateCode=seom202';
+const TARGET = 'https://www.rr95k.com/?ch=0cf28df51e';
 
 module.exports = (req, res) => {
   res.writeHead(302, {
