@@ -1,4 +1,4 @@
-// Affiliate redirect. All partner CTA routes currently use the primary RR95K line.
+// Affiliate redirect. All partner CTA routes currently use the primary MYAN99 line.
 const TARGET = 'https://www.myan99.me/m/home?affiliateCode=seom202';
 
 module.exports = (req, res) => {
