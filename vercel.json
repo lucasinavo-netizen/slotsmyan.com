@@ -7,6 +7,10 @@
     {
       "source": "/go/sm2",
       "destination": "/api/go"
+    },
+    {
+      "source": "/go/vn",
+      "destination": "/api/go-vn"
     }
   ],
   "headers": [
