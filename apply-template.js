@@ -62,7 +62,7 @@ function main() {
     }
   };
 
-  const dirsToCopy = ['assets', 'article', 'vi'];
+  const dirsToCopy = ['assets', 'article'];
   try {
     if (fs.existsSync(path.join(SRC_DIR, 'favicon.ico'))) {
       fs.copyFileSync(path.join(SRC_DIR, 'favicon.ico'), path.join(OUTPUT_DIR, 'favicon.ico'));
